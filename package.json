@@ -1,0 +1,21 @@
+{
+  "name": "fintwin",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.15.5",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "db:generate": "pnpm --filter @fintwin/api prisma:generate",
+    "db:push": "pnpm --filter @fintwin/api prisma:push",
+    "db:migrate": "pnpm --filter @fintwin/api prisma:migrate",
+    "db:seed": "pnpm --filter @fintwin/api prisma:seed",
+    "db:studio": "pnpm --filter @fintwin/api prisma:studio"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  }
+}

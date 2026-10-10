@@ -1,0 +1,6 @@
+import { ArrowUpRight, Bot, CheckCircle2, MessageCircle } from 'lucide-react';
+import Link from 'next/link';
+
+export function AiAdvisorCard() {
+  return <article className="panel advisor-panel"><div className="advisor-header"><div className="advisor-avatar"><Bot size={19} /></div><div><span className="eyebrow">Simulated insight</span><h2>AI Finance Advisor</h2></div><span className="online-dot">Demo</span></div><div className="advisor-thread"><div className="advisor-question"><MessageCircle size={14} /> Can I afford an ₹80 lakh house in 5 years?</div><div className="advisor-answer"><div className="answer-heading"><CheckCircle2 size={15} /> Based on your current trajectory</div><p>The goal appears achievable under the current assumptions. Your savings rate and investment growth are doing the heavy lifting.</p><div className="advisor-metrics"><span><small>Down payment</small><strong>₹16.0L</strong></span><span><small>Estimated loan</small><strong>₹64.0L</strong></span><span><small>Estimated EMI</small><strong>₹56.2k</strong></span><span><small>EMI / income</small><strong>35.1%</strong></span></div></div></div><Link className="advisor-input" href="/ai-advisor"><span>Ask anything about your finances...</span><ArrowUpRight size={16} /></Link></article>;
+}

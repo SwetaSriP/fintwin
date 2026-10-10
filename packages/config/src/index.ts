@@ -1,0 +1,5 @@
+export const appConfig = {
+  name: 'FinTwin',
+  apiUrl: process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:4000',
+  defaultCurrency: 'INR' as const,
+};

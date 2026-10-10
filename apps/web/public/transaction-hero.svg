@@ -1,0 +1,15 @@
+<svg width="760" height="300" viewBox="0 0 760 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="300" rx="28" fill="#DCEBE3"/>
+  <circle cx="650" cy="36" r="118" fill="#C7DED1" fill-opacity=".72"/>
+  <circle cx="91" cy="278" r="100" fill="#BFD8CB" fill-opacity=".54"/>
+  <path d="M0 233C95 191 145 249 238 202C334 154 381 216 469 165C561 111 630 154 760 73V300H0V233Z" fill="#BCD7C9" fill-opacity=".52"/>
+  <path d="M0 217C93 174 152 232 241 183C334 132 386 194 475 143C563 93 643 137 760 55" stroke="#5A9180" stroke-width="4" stroke-linecap="round"/>
+  <path d="M0 242C101 209 165 267 249 225C344 177 399 230 491 193C583 155 654 177 760 124" stroke="#F9FCF8" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 10"/>
+  <rect x="68" y="58" width="195" height="112" rx="18" fill="#F9FCF8" fill-opacity=".88"/>
+  <path d="M92 123H137L151 91L169 143L185 112L201 130H235" stroke="#43806F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="151" cy="91" r="6" fill="#D58D61"/>
+  <text x="92" y="86" fill="#47695D" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">CASH FLOW</text>
+  <rect x="548" y="157" width="136" height="68" rx="16" fill="#344744"/>
+  <text x="570" y="181" fill="#A9D0BC" font-family="Arial, sans-serif" font-size="10" font-weight="700">THIS MONTH</text>
+  <text x="570" y="207" fill="#F6FAF5" font-family="Arial, sans-serif" font-size="20" font-weight="700">+₹1.12L</text>
+</svg>
